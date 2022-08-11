@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <form class="form">
+    <h2>Big T survey</h2>
+      <div class="form-control">
+          First Name:<br>
+          <input type="text" name="firstname" placeholder="Enter your firstname">
+      </div>
+      <div class="form-control">
+          Last Name:<br>
+          <input type="text" name="lastname" placeholder="Enter your lastname">
+          </div>
+          <div class="form-control">
+              Email:<br>
+              <input type="email" id="email" name="email" placeholder="Enter your email">
+          </div>
+          <div class="form-control">
+              Age:<br>
+              <input type="number" id="age" name="label-age" placeholder="Enter your age">
+              
+          </div>
+          <div class="form-control">
+          <label for="role" id="label-role">
+              Which option best describes you?
+          </label>
+
+          <select name="role" id="role">
+              <option value="student">Student</option>
+              <option value="intern">Intern</option>
+              <option value="teacher">Teacher</option>
+              <option value="other">Other</option>
+          </select>
+          </div>
+
+          <div class="form-control">
+              <label>Languages and Frameworks Known
+              <small>(check all that apply)</small>
+              </label>
+              <label for="inp-1">
+                  <input type="checkbox"
+                  name="inp">C</input></label>
+                  <label for="inp-2">
+                      <input type="checkbox"
+                      name="inp">C++</input></label>
+                      <label for="inp-3">
+                          <input type="checkbox"
+                          name="inp">Javascript</input>
+                      </label> 
+                      <label for="inp-4">
+                          <input type="checkbox"
+                          name="inp">Vue</input>
+                      </label>
+                      <label for="inp-5">
+                          <input type="checkbox"
+                          name="inp">React</input>
+                      </label>
+                      <label for="inp-6">
+                          <input type="checkbox"
+                          name="inp">Java</input>
+                      </label>
+                      <label for="inp-7">
+                          <input type="checkbox"
+                          name="inp">Others</input>
+                      </label>
+          </div>
+       
+          <div class="form-control">
+              <label for="comment">
+                  Any comments or suggestions
+              </label>
+
+              <textarea name="comment" id="comment"
+              placeholder="Enter your comment here">
+            </textarea>
+          </div>
+        <button type="submit" value="submit">
+            Submit
+        </button>
+
+    </form>
+</body>
+</html>
